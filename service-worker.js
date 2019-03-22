@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/jordiponsllaurado/marcel_buisan_cinema_audiovisuals/precache-manifest.fce4bbf81f9426caaa47e65e6618ab90.js"
+  "/marcel_buisan_cinema_audiovisuals/precache-manifest.17966582af2373d954b7853d4182e1a6.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/jordiponsllaurado/marcel_buisan_cinema_audiovisuals/index.html", {
+workbox.routing.registerNavigationRoute("/marcel_buisan_cinema_audiovisuals/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

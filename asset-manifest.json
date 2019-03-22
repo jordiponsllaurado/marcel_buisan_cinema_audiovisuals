@@ -1,14 +1,14 @@
 {
-  "main.css": "/jordiponsllaurado/marcel_buisan_cinema_audiovisuals/static/css/main.005b3706.chunk.css",
-  "main.js": "/jordiponsllaurado/marcel_buisan_cinema_audiovisuals/static/js/main.23b631f5.chunk.js",
-  "main.js.map": "/jordiponsllaurado/marcel_buisan_cinema_audiovisuals/static/js/main.23b631f5.chunk.js.map",
-  "runtime~main.js": "/jordiponsllaurado/marcel_buisan_cinema_audiovisuals/static/js/runtime~main.13adb998.js",
-  "runtime~main.js.map": "/jordiponsllaurado/marcel_buisan_cinema_audiovisuals/static/js/runtime~main.13adb998.js.map",
-  "static/js/2.693cc7d6.chunk.js": "/jordiponsllaurado/marcel_buisan_cinema_audiovisuals/static/js/2.693cc7d6.chunk.js",
-  "static/js/2.693cc7d6.chunk.js.map": "/jordiponsllaurado/marcel_buisan_cinema_audiovisuals/static/js/2.693cc7d6.chunk.js.map",
-  "index.html": "/jordiponsllaurado/marcel_buisan_cinema_audiovisuals/index.html",
-  "precache-manifest.fce4bbf81f9426caaa47e65e6618ab90.js": "/jordiponsllaurado/marcel_buisan_cinema_audiovisuals/precache-manifest.fce4bbf81f9426caaa47e65e6618ab90.js",
-  "service-worker.js": "/jordiponsllaurado/marcel_buisan_cinema_audiovisuals/service-worker.js",
-  "static/css/main.005b3706.chunk.css.map": "/jordiponsllaurado/marcel_buisan_cinema_audiovisuals/static/css/main.005b3706.chunk.css.map",
-  "static/media/logo.svg": "/jordiponsllaurado/marcel_buisan_cinema_audiovisuals/static/media/logo.5d5d9eef.svg"
+  "main.css": "/marcel_buisan_cinema_audiovisuals/static/css/main.005b3706.chunk.css",
+  "main.js": "/marcel_buisan_cinema_audiovisuals/static/js/main.0e2b6b07.chunk.js",
+  "main.js.map": "/marcel_buisan_cinema_audiovisuals/static/js/main.0e2b6b07.chunk.js.map",
+  "runtime~main.js": "/marcel_buisan_cinema_audiovisuals/static/js/runtime~main.e52351c2.js",
+  "runtime~main.js.map": "/marcel_buisan_cinema_audiovisuals/static/js/runtime~main.e52351c2.js.map",
+  "static/js/2.693cc7d6.chunk.js": "/marcel_buisan_cinema_audiovisuals/static/js/2.693cc7d6.chunk.js",
+  "static/js/2.693cc7d6.chunk.js.map": "/marcel_buisan_cinema_audiovisuals/static/js/2.693cc7d6.chunk.js.map",
+  "index.html": "/marcel_buisan_cinema_audiovisuals/index.html",
+  "precache-manifest.17966582af2373d954b7853d4182e1a6.js": "/marcel_buisan_cinema_audiovisuals/precache-manifest.17966582af2373d954b7853d4182e1a6.js",
+  "service-worker.js": "/marcel_buisan_cinema_audiovisuals/service-worker.js",
+  "static/css/main.005b3706.chunk.css.map": "/marcel_buisan_cinema_audiovisuals/static/css/main.005b3706.chunk.css.map",
+  "static/media/logo.svg": "/marcel_buisan_cinema_audiovisuals/static/media/logo.5d5d9eef.svg"
 }
