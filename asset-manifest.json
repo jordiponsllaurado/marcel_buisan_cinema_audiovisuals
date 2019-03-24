@@ -1,14 +1,13 @@
 {
-  "main.css": "/marcel_buisan_cinema_audiovisuals/static/css/main.64e2f9cf.chunk.css",
-  "main.js": "/marcel_buisan_cinema_audiovisuals/static/js/main.f7e7afb6.chunk.js",
-  "main.js.map": "/marcel_buisan_cinema_audiovisuals/static/js/main.f7e7afb6.chunk.js.map",
+  "main.css": "/marcel_buisan_cinema_audiovisuals/static/css/main.7c9173af.chunk.css",
+  "main.js": "/marcel_buisan_cinema_audiovisuals/static/js/main.276a062c.chunk.js",
+  "main.js.map": "/marcel_buisan_cinema_audiovisuals/static/js/main.276a062c.chunk.js.map",
   "runtime~main.js": "/marcel_buisan_cinema_audiovisuals/static/js/runtime~main.e52351c2.js",
   "runtime~main.js.map": "/marcel_buisan_cinema_audiovisuals/static/js/runtime~main.e52351c2.js.map",
-  "static/js/2.6b594c8d.chunk.js": "/marcel_buisan_cinema_audiovisuals/static/js/2.6b594c8d.chunk.js",
-  "static/js/2.6b594c8d.chunk.js.map": "/marcel_buisan_cinema_audiovisuals/static/js/2.6b594c8d.chunk.js.map",
+  "static/js/2.c93a9835.chunk.js": "/marcel_buisan_cinema_audiovisuals/static/js/2.c93a9835.chunk.js",
+  "static/js/2.c93a9835.chunk.js.map": "/marcel_buisan_cinema_audiovisuals/static/js/2.c93a9835.chunk.js.map",
   "index.html": "/marcel_buisan_cinema_audiovisuals/index.html",
-  "precache-manifest.edcce6bf30a5f3b8026ee215e91a69d7.js": "/marcel_buisan_cinema_audiovisuals/precache-manifest.edcce6bf30a5f3b8026ee215e91a69d7.js",
+  "precache-manifest.bd4715e3c63f30c695b4629c57958006.js": "/marcel_buisan_cinema_audiovisuals/precache-manifest.bd4715e3c63f30c695b4629c57958006.js",
   "service-worker.js": "/marcel_buisan_cinema_audiovisuals/service-worker.js",
-  "static/css/main.64e2f9cf.chunk.css.map": "/marcel_buisan_cinema_audiovisuals/static/css/main.64e2f9cf.chunk.css.map",
-  "static/media/logo.svg": "/marcel_buisan_cinema_audiovisuals/static/media/logo.5d5d9eef.svg"
+  "static/css/main.7c9173af.chunk.css.map": "/marcel_buisan_cinema_audiovisuals/static/css/main.7c9173af.chunk.css.map"
 }
