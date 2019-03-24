@@ -1,19 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/header/Header'
-import YouTube from 'react-youtube';
+import Body from './components/body/Body'
+import Footer from './components/footer/Footer'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header />
-        <div className='Body'>
-          <YouTube
-            videoId={'uGPSUvaWryA'}
-          />
-        </div>
+        <Body />
+        <Footer />
       </div>
     );
   }
