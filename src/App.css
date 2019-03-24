@@ -24,6 +24,49 @@
   color: #61dafb;
 }
 
+/* Style the body */
+Body {
+  font-family: Arial;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background: #28262C;
+}
+
+.header {
+  text-align: center;
+  background: #BC7474;
+  color: white;
+  font-size: 30px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #F98989;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #9E5656;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

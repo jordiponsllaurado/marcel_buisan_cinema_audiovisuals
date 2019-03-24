@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import './Body.css';
+import './Home.css';
 import YouTube from 'react-youtube';
 
-class Body extends Component {
+class Home extends Component {
     render() {
         return (
-            <div className='Body'>
+            <div className='Home'>
             <YouTube
               videoId={'uGPSUvaWryA'}
             />
@@ -14,4 +14,4 @@ class Body extends Component {
     }
 }
 
-export default Body
+export default Home
