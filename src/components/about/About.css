@@ -1,6 +1,7 @@
 .About {
     height:100vh;
-    padding: 10px;
+    overflow: auto; 
+    padding: 40px;
     color: white;
     text-align:justify;
 }
