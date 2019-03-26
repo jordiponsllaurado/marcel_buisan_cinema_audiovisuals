@@ -3,16 +3,11 @@ import './About.css';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { black } from 'ansi-colors';
-import SvgIcon from '@material-ui/core/SvgIcon';
-
-const movie = "M18,9H16V7H18M18,13H16V11H18M18,17H16V15H18M8,9H6V7H8M8,13H6V11H8M8,17H6V15H8M18,3V5H16V3H8V5H6V3H4V21H6V19H8V21H16V19H18V21H20V3H18Z"
-const sound = "M12,2A3,3 0 0,1 15,5V11A3,3 0 0,1 12,14A3,3 0 0,1 9,11V5A3,3 0 0,1 12,2M19,11C19,14.53 16.39,17.44 13,17.93V21H11V17.93C7.61,17.44 5,14.53 5,11H7A5,5 0 0,0 12,16A5,5 0 0,0 17,11H19Z"
-const photo = "M4,4H7L9,2H15L17,4H20A2,2 0 0,1 22,6V18A2,2 0 0,1 20,20H4A2,2 0 0,1 2,18V6A2,2 0 0,1 4,4M12,7A5,5 0 0,0 7,12A5,5 0 0,0 12,17A5,5 0 0,0 17,12A5,5 0 0,0 12,7M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9Z"
 
 class About extends Component {
     render() {
         return (
-            <div className='content'>
+            <div>
                 <div className='About'>
                     <h1>SOBRE MI</h1>
                     <p>
@@ -24,7 +19,8 @@ class About extends Component {
                         <br /><br />
                         En el meu temps lliure treballo en guions i projectes de curtmetratges, capítols pilots per televisió i llargmetratges.
                     </p>
-{/*
+
+                    <h2>Historial de projectes</h2>
                     <h3>Com a Director</h3>
                     <ul>
                         <li>2018 - "En la tardor de la història" (Curtmetratge). 4k. - En Postproducció - Protagonitzat per Enric Majó i Àlex Casanovas</li>
@@ -52,64 +48,37 @@ class About extends Component {
                         <li>2012 - "The Jump! WTF experience" (llargmetratge documental) dirigit per Carme Puche. Operador de càmera (segona unitat) Estudi Puche Expressions i AVED. HD.</li>
                         <li>2012 - Festival Engresca't 2012. (reportatge). Operador de càmera. AVED. HD.</li>
                         <li>2009 - Lark About. "Camp a través". (videoclip) dirigit per Àngel Miñana. Ajudant de fotografia. ECIB. HD</li>
+                        <li>2009 - "Trips" (curtmetratge) dirigit per Jaume Molera i Joan Llaneras. Operador de càmera. ECIB. HD.</li>
                     </ul>
                 </div>
-*/}
-                </div>
-                <div className='projects'>
-                    <h2>Historial de projectes</h2>
-                    <VerticalTimeline>
-                        <VerticalTimelineElement
-                            className="vertical-timeline-element--work"
-                            date="2011"
-                            style={{ color: black}}
-                            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            icon={<SvgIcon>
-                                <path d={sound} />
-                            </SvgIcon>}
-                        >
-                            <h3 className="vertical-timeline-element-title">"La última habitación"</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Dirigit per Pilar M. Aláez. ECIB i AVED. HD.</h4>
-                            <p>Al Departament de So</p>
-                        </VerticalTimelineElement>
-                        <VerticalTimelineElement
-                            className="vertical-timeline-element--work"
-                            date="2011"
-                            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            icon={<SvgIcon>
-                                <path d={sound} />
-                            </SvgIcon>}
-                        >
-                            <h3 className="vertical-timeline-element-title">Lo que siempre te quise decir</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Dirigit per Àngel Miñana. ECIB. HD.</h4>
-                            <p>Al Departament de So</p>
-                        </VerticalTimelineElement>
-                        <VerticalTimelineElement
-                            className="vertical-timeline-element--work"
-                            date="2010"
-                            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            icon={<SvgIcon>
-                                <path d={sound} />
-                            </SvgIcon>}
-                        >
-                            <h3 className="vertical-timeline-element-title">18.04</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Dirigit per Laura Abelló. ECIB. HD.</h4>
-                            <p>Al Departament de So</p>
-                        </VerticalTimelineElement>
-                        <VerticalTimelineElement
-                            className="vertical-timeline-element--work"
-                            date="2009"
-                            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            icon={<SvgIcon>
-                                <path d={photo} />
-                            </SvgIcon>}
-                        >
-                            <h3 className="vertical-timeline-element-title">"Trips" (curtmetratge)</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Dirigit per Jaume Molera i Joan Llaneras. Operador de càmera. ECIB. HD.</h4>
-                            <p>Al Departament de Fotografia</p>
-                        </VerticalTimelineElement>
-                    </VerticalTimeline>
-                </div>
+                <h3 style={{ color: '#2196f3', padding: '40px'}}>Al Departament de So</h3>
+                <VerticalTimeline layout_='1-column'>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        date="2011"
+                        style={{ color: black}}
+                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    >
+                        <h3 className="vertical-timeline-element-title">"La última habitación"</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Dirigit per Pilar M. Aláez. ECIB i AVED. HD.</h4>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        date="2011"
+                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    >
+                        <h3 className="vertical-timeline-element-title">Lo que siempre te quise decir</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Dirigit per Àngel Miñana. ECIB. HD.</h4>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        date="2010"
+                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    >
+                        <h3 className="vertical-timeline-element-title">18.04</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Dirigit per Laura Abelló. ECIB. HD.</h4>
+                    </VerticalTimelineElement>
+                </VerticalTimeline>
             </div>
         )
     }
