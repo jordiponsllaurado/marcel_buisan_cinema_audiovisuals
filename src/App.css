@@ -26,7 +26,6 @@
 
 /* Style the body */
 Body {
-  font-family: Arial;
   margin: 0;
   position: fixed;
   top: 0;
@@ -36,42 +35,16 @@ Body {
   background: #28262C;
 }
 
-.header {
-  text-align: center;
-  background: #BC7474;
-  color: white;
-  font-size: 30px;
-
+.root {
+  flex-grow: 1;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+.grow {
+  flex-grow: 1;
 }
 
-li {
-  float: left;
+.menuButton {
+  flex-grow: -12;
+  flex-grow: 20;
 }
 
-li a {
-  display: block;
-  color: #F98989;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #9E5656;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
