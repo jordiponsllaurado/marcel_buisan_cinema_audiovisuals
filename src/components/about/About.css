@@ -1,7 +1,14 @@
 .About {
+    color: white;
+    text-align:justify;
+}
+
+.projects {
+    color: #2196F3;
+}
+
+.content {
     height:100vh;
     overflow: auto; 
     padding: 40px;
-    color: white;
-    text-align:justify;
 }
