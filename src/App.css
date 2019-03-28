@@ -1,42 +1,6 @@
-.App {
-  text-align: center;
-  background-color: #282c34;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-/* Style the body */
-Body {
-  margin: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 99;
-  background: #28262C;
-}
-
 .root {
-  flex-grow: 1;
+  flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  padding: 20px;
 }
 
 .grow {
@@ -46,4 +10,10 @@ Body {
 .menuButton {
   flex-grow: -12;
   flex-grow: 20;
+}
+
+.content {
+  flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  padding: 20px;
+  background-color: black
 }

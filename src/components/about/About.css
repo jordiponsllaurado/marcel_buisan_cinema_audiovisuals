@@ -1,6 +1,8 @@
 .About {
     color: white;
     text-align:justify;
+    overflow: auto; 
+    padding: 40px;
 }
 
 .projects {

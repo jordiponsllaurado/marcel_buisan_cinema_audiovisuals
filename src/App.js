@@ -13,8 +13,8 @@ class App extends Component {
   render() {
     return (
         <div>
-          <Router>
-            <div className='root'>
+          <div>
+            <Router>
               <AppBar position="static">
                 <Toolbar>
                   <Typography variant="h6" color="inherit" className='grow'>
@@ -24,11 +24,13 @@ class App extends Component {
                   <Button color="inherit"><Link style={{ textDecoration: 'none', color: 'inherit' }} to="/about">About</Link></Button>
                 </Toolbar>
               </AppBar>
-              <Route exact path="/" component={Home} />
-              <Route path="/about" component={About} />
-            </div>
-        </Router>
-        <Footer />
+              <div className='content'>
+                <Route exact path="/" component={Home} />
+                <Route path="/about" component={About} />
+              </div>
+          </Router>
+        </div>
+        <Footer className='footer'/>
       </div>
     )
   }
