@@ -6,10 +6,10 @@ class Home extends Component {
     render() {
         return (
             <div className='Home'>
-            <YouTube
-              videoId={'uGPSUvaWryA'}
-            />
-          </div>
+              <YouTube
+                videoId={'uGPSUvaWryA'}
+              />
+            </div>
         )
     }
 }

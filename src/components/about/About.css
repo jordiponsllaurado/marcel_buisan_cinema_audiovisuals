@@ -1,6 +1,16 @@
 .About {
-    height:100vh;
-    padding: 10px;
     color: white;
     text-align:justify;
+    overflow: auto; 
+    padding: 40px;
+}
+
+.projects {
+    color: #2196F3;
+}
+
+.content {
+    height:100vh;
+    overflow: auto; 
+    padding: 40px;
 }
