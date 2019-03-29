@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/marcel_buisan_cinema_audiovisuals/precache-manifest.0de335f732e113dcc140db0cedaca10f.js"
+  "/marcel_buisan_cinema_audiovisuals/precache-manifest.2f4a5062288d0c1a2802a4e036f48e21.js"
 );
 
 workbox.clientsClaim();

@@ -1,15 +1,15 @@
 {
-  "main.css": "/marcel_buisan_cinema_audiovisuals/static/css/main.610e5681.chunk.css",
-  "main.js": "/marcel_buisan_cinema_audiovisuals/static/js/main.51f3a4c1.chunk.js",
-  "main.js.map": "/marcel_buisan_cinema_audiovisuals/static/js/main.51f3a4c1.chunk.js.map",
+  "main.css": "/marcel_buisan_cinema_audiovisuals/static/css/main.a697bb93.chunk.css",
+  "main.js": "/marcel_buisan_cinema_audiovisuals/static/js/main.f88e6328.chunk.js",
+  "main.js.map": "/marcel_buisan_cinema_audiovisuals/static/js/main.f88e6328.chunk.js.map",
   "runtime~main.js": "/marcel_buisan_cinema_audiovisuals/static/js/runtime~main.e52351c2.js",
   "runtime~main.js.map": "/marcel_buisan_cinema_audiovisuals/static/js/runtime~main.e52351c2.js.map",
-  "static/css/2.ca1d5700.chunk.css": "/marcel_buisan_cinema_audiovisuals/static/css/2.ca1d5700.chunk.css",
-  "static/js/2.695d6be7.chunk.js": "/marcel_buisan_cinema_audiovisuals/static/js/2.695d6be7.chunk.js",
-  "static/js/2.695d6be7.chunk.js.map": "/marcel_buisan_cinema_audiovisuals/static/js/2.695d6be7.chunk.js.map",
+  "static/css/2.dae8a8ab.chunk.css": "/marcel_buisan_cinema_audiovisuals/static/css/2.dae8a8ab.chunk.css",
+  "static/js/2.856e87f9.chunk.js": "/marcel_buisan_cinema_audiovisuals/static/js/2.856e87f9.chunk.js",
+  "static/js/2.856e87f9.chunk.js.map": "/marcel_buisan_cinema_audiovisuals/static/js/2.856e87f9.chunk.js.map",
   "index.html": "/marcel_buisan_cinema_audiovisuals/index.html",
-  "precache-manifest.0de335f732e113dcc140db0cedaca10f.js": "/marcel_buisan_cinema_audiovisuals/precache-manifest.0de335f732e113dcc140db0cedaca10f.js",
+  "precache-manifest.2f4a5062288d0c1a2802a4e036f48e21.js": "/marcel_buisan_cinema_audiovisuals/precache-manifest.2f4a5062288d0c1a2802a4e036f48e21.js",
   "service-worker.js": "/marcel_buisan_cinema_audiovisuals/service-worker.js",
-  "static/css/2.ca1d5700.chunk.css.map": "/marcel_buisan_cinema_audiovisuals/static/css/2.ca1d5700.chunk.css.map",
-  "static/css/main.610e5681.chunk.css.map": "/marcel_buisan_cinema_audiovisuals/static/css/main.610e5681.chunk.css.map"
+  "static/css/2.dae8a8ab.chunk.css.map": "/marcel_buisan_cinema_audiovisuals/static/css/2.dae8a8ab.chunk.css.map",
+  "static/css/main.a697bb93.chunk.css.map": "/marcel_buisan_cinema_audiovisuals/static/css/main.a697bb93.chunk.css.map"
 }
